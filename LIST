@@ -1,0 +1,88 @@
+RADIO-AMATEUR
+
+D-Star            GMSK
+DMR, Fusion       4FSK
+AX-25 Packet      FSK
+Morse   CW        ASK
+PSK31             PSK
+RTTY              FSK
+FSK441, JT65      MultipleFSK
+AMTOR,PACTOR,GTOR FSK
+
+---------------------------------------------
+MOBILES
+
+GSM GPRS EDGE     GMSK
+W-CDMA            DSSS HPSK, QPSK, 16QAM
+HSDPA, HSUPA      DSSS HPSK, PSK, 16QAM
+TETRA             pi/4-DQPSK
+Tetrapol Policom  GMSK
+
+---------------------------------------------
+Radio Point à Point
+
+DSSS, 4FSK, 16QAM, 64QAM, 128QAM, 128TCM, 256TCM
+
+---------------------------------------------
+DVB-S  (SAT)
+
+QPSK, 8PSK, 16QAM
+
+---------------------------------------------
+DVB-T  (TERESTRE)
+
+ATSC 8-VSB, 16-VSB
+DVB-T QPSK, 16QAM, 64QAM on COFDM
+ISDB-T BST-COFDM DQPSK, QPSK, 16QAM, 64QAM
+
+---------------------------------------------
+WIRELESS
+
+WLAN  DSSCCK D8PSK, DQPSK, 52 OFDM, 64QAM
+WiMax  OFDM BPSK, QPSK, 16QAM, 64QAM
+ZigBee  BPSK, OQPSK
+Bluetooth  FHSS, GPSK, pi/4-DQPSK
+
+
+---------------------------------------------
+---------------------------------------------
+---------------------------------------------
+
+
+Historical
+1995    USA-Company   DVSI  IMBE-AMBE royalies codec IMBE-AMBE
+1995    APCO-25    /   P25 (security+)
+        Phase 1   FDMA/C4FM      IMBE codec
+        Phase 2   TDMA           AMBE+2 codec (not compatible with phase 1        F vs T domain :-)
+2000    D-Star    (GMSK-FDMA-AMBE+ look JARRL )
+2001    Evolving P25 in Europe under TETRA name
+2005    DMR   (commercial activity...) TDMA, 4 FSK, AMBE+2    (like Telephone compagny Management..... Brandmeister is next coming later 2015 :-)
+2006    NXDN ICOM/KENWOOD enter the game
+             IDAS & NEXEDGE Commercial othername
+             FDMA 12.5 or 6.25kHz
+             4FSK
+             AMBE+2
+2008    dPMR similar to NXDN but cheap
+2014    Fusion C4FM   YAESU enter the game
+              FDMA
+              AMBE+2
+              WIRES-X   (internet interconnexion)
+2015    Brandmeister DMR (Administration Brandmeister / French RadioClub conflict)
+
+Yet     DIY an alternative
+
+
+
+---------------------------------------------
+---------------------------------------------
+---------------------------------------------
+
+                        D-STAR      DMR         FUSION
+Vocoder                  AMBE+      AMBE+2      AMBE+2
+Forward Error Corr.      Voice      Voice       Voice
+Modulation                GMSK      4FSK        C4FM
+Multiplex Method          FDMA      TDMA        FDMA
+Transmission Rate         4.8kbps   4.8kbps x2  9.6 kbps
+Bandwidth                 6.25kHz   12.5kHz     12.5kHz
+channels supported        1           2           1
+Standard Dev.             JARL      ETSI        YAESU
